@@ -24,18 +24,24 @@ const navLinks = document.getElementById('navLinks');
 hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('active');
 });*/
-document.addEventListener('DOMContentLoaded', () => { });
-  const hamburger = document.getElementById('hamburger');
-  const navLinks = document.getElementById('navLinks');
+document.addEventListener('DOMContentLoaded', () => {
   
+});
+
+const navLinks  = document.getElementById('navLinks');
+const hamburger = document.getElementById('hamburger');
+
+  // hamburger.addEventListener('click', () => {
+  //    navLinks.classList.toggle('active');
+  //    alert("Thanks for visiting our site ");
+  // });
+
   hamburger.onclick = function () {
   navLinks.classList.toggle('active');
   alert("Thanks for visiting our site");
 };
-//   hamburger.addEventListener('click', () => {
-//     navLinks.classList.toggle('active');
-//   });
-// });
+
+
 function validateForm() {
   const name = document.forms["contactForm"]["name"].value.trim();
   const email = document.forms["contactForm"]["email"].value.trim();
@@ -69,14 +75,8 @@ document.getElementById('whatsappLink').addEventListener('click', function(e) {
        return;
      }
 
-     const message = `Hi Tech Xpertz Networks, I am name. I'd like to become a tech xpert. How do I begin¿;
+     const message = `Hi Tech Xpertz Networks, I am name. I'd like to become a tech xpert. How do I begin`;
      const phoneNumber = '+237677586019'; // Replace with your WhatsApp number in international format, e.g., '237612345678'
-     const whatsappURL = `https://wa.me/{phoneNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
           window.open(whatsappURL, '_blank');
    });
-   
-
-
-
-  
-
