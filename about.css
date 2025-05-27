@@ -1,0 +1,118 @@
+/* *Replace member1.jpg to member5.jpg with the actual image paths, and update the names and roles accordingly.* */
+
+/* Team Section */
+/*#team {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#team h2 {
+  font-size: 2.5em;
+  color: #FF7200;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-member {
+  background-color: #f9f9f9;
+  border: 2px solid #7200FF;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.team-member h3 {
+  color: #FF7200;
+  margin-top: 15px;
+}
+
+.team-member p {
+  color: #333;
+  font-size: 1em;
+}
+
+/* Responsive Layout */
+/* @media (max-width: 99px) { */
+  /* .team-grid { */
+    /* grid-template-columns: repeat(2, 1fr); */
+  /* } */
+/* } */
+
+/* @media (max-width: 60px) { */
+  /* .team-grid { */
+    /* grid-template-columns: 1fr; */
+  /* } */
+/* }  */
+
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 40px;
+}
+
+.about-half {
+  width: 50%;
+}
+
+.left {
+  background-color: #fff7f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.right {
+  background-color: #f4f0ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about-section h2 {
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 10px;
+}
+
+.about-section p,
+.about-section li {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.section-box {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+  color: #000;
+}
+
+/* Hover effect with color change */
+.section-box:hover {
+  background-color: #FF7200; /* Vibrant orange */
+  color: #fff;
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(114, 0, 255, 0.3); /* Purple glow */
+}
+
+
+/* Let me know if you'd like animations or more styling! */
