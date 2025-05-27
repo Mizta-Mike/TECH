@@ -27,11 +27,15 @@ hamburger.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('navLinks');
-
-  hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
-});
+  
+  hamburger.onclick = function () {
+  navLinks.classList.toggle('active');
+  alert("Thanks for visiting our site");
+};
+//   hamburger.addEventListener('click', () => {
+//     navLinks.classList.toggle('active');
+//   });
+// });
 function validateForm() {
   const name = document.forms["contactForm"]["name"].value.trim();
   const email = document.forms["contactForm"]["email"].value.trim();
